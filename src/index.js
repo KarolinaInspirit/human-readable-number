@@ -27,7 +27,7 @@ module.exports = function toReadable (number) {
         if (numberString[1] === '0' && numberString[2] === '0')
            return ones[numberString[0]] + ' hundred';
         else
-           return ones[numberString[0]] + ' hundred ' + toReadme(+(numberString[1] + numberString[2]));        
+           return ones[numberString[0]] + ' hundred ' + toReadable(+(numberString[1] + numberString[2]));        
     }
     
 }
